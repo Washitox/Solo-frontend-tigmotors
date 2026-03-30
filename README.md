@@ -44,7 +44,6 @@ src/
 - **Framework Frontend:** React con Vite.
 - **Estilos:** TailwindCSS para diseño moderno y adaptable.
 - **Autenticación:** Implementación con JWT.
-- **Consumo de API:** Conexión al backend mediante Axios.
 - **Rutas Protegidas:** Control de acceso según roles de usuario.
 
 ---
@@ -55,7 +54,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/Washitox/TigMotors-Deploy.git
+   git clone URL
    ```
 
 2. **Instalar dependencias:**
@@ -71,23 +70,6 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 4. **Abrir en el navegador:**
    La aplicación se ejecutará en `http://localhost:5173/` (puede variar según la configuración de Vite).
 
----
-
-## 🛡️ Roles en el Sistema
-
-### 👑 ADMIN
-- Gestión completa de usuarios, solicitudes y tickets.
-- Información Personal.
-
-### 🏢 PERSONAL_CENTRO_DE_SERVICIOS
-- Administración de tickets y comprobantes.
-- Información Personal.
-
-### 👤 USER
-- Gestión de solicitudes y visualización de tickets y comprobantes.
-- Información Personal.
-
----
 
 ## 📌 Notas Adicionales
 
@@ -96,5 +78,5 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 ---
 
-Este **frontend** es parte del ecosistema **TigMotors**, diseñado para facilitar la gestión de servicios empresariales y mejorar la experiencia de los usuarios con una interfaz intuitiva y eficiente.
+Este **frontend** es parte del ecosistema **TigMotors**, diseñado solo visualizacion de detalles de la empresa y conocer terminos y politicas de la empresa
 
