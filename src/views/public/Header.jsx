@@ -10,16 +10,15 @@ export default function Header() {
 
   const navigateLanding = () => {
     navigate("/")
-  }
+}
 
-  const navigateLogin = () => {
+const navigateLogin = () => {
     navigate("/login")
   }
 
   const navigateRegister = () =>{
     navigate("/register")
   }
-
 
 
   return (
@@ -47,6 +46,7 @@ export default function Header() {
             {!isLoggedIn ? (
               <>
                 <li>
+                  {/*
                   <Button
                     onClick={navigateLogin}
                     color="secondary"
@@ -55,8 +55,10 @@ export default function Header() {
                   >
                     Iniciar sesión
                   </Button>
+                  */}
                 </li>
                 <li>
+                  {/* 
                   <Button
                     onClick={navigateRegister}
                     color="primary"
@@ -65,6 +67,7 @@ export default function Header() {
                   >
                     Solicitar Registro
                   </Button>
+                  */}
                 </li>
               </>
             ) : (

@@ -6,6 +6,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 import { Spinner } from "keep-react"; // Importa el Spinner
+import PropTypes from "prop-types";
 
 export default function SignIn() {
   const {
@@ -22,6 +23,10 @@ export default function SignIn() {
   const FormError = ({ message }) => (
     <div className="block font-medium text-red-500 text-sm">{message}</div>
   );
+
+  FormError.propTypes = {
+    message: PropTypes.string.isRequired,
+  };
 
   const onSubmit = async (data) => {
     setErrorMessage(null);
